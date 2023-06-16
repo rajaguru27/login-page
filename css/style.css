@@ -1,0 +1,198 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+@media (min-width:320px){
+	.container{
+	width:95%;
+	margin:auto;
+}
+h2{
+	width:75%;
+}
+}
+@media (min-width:620px){
+.row{
+	display:flex;
+	align-items:center;
+}
+.col-1{
+	width:60%;
+	margin:auto;
+}
+.col-2{
+	width:40%;
+}
+.image{
+	position:relative;
+}
+.image img{
+	position:absolute;
+	left:50%;
+}
+	
+}
+@media (min-width:960px){
+h2{
+	font-size:3rem;
+	width:140%;
+}
+.row{
+	display:flex;
+	align-items:flex-start;
+}
+.col-1{
+	width:30%;
+	margin:auto;
+}
+.col-2{
+	width:50%;
+}
+.image{
+	position:relative;
+}
+.image img{
+	position:absolute;
+	left:20%;
+}
+
+	
+}
+section{
+	margin-top:20px;
+	overflow:hidden;
+}
+
+.image img{
+	max-width:100%;
+	margin:auto;
+}
+.image{
+	padding:10px;
+}
+h2{
+	font-weight:100;
+	padding-bottom:20px;
+	padding-left:10px;
+	color:#8f5849;
+}
+.login-page label{
+	display:block;
+	padding-bottom:10px;
+	font-weight:bolder;
+}
+.login-page {
+	margin-top: 20px;
+}
+.login-page input{
+	border:1px solid #010f11;
+	width:100%;
+	padding:15px;
+}
+::placeholder{
+	color: #010f11;
+	
+	font-weight:600;
+	padding:10px 0;
+}
+a{
+	text-decoration:none;
+}
+.forget{
+	font-size:0 8rem;
+	padding-bottom:10px;
+}
+.forget a{
+	color:#0a66c2;
+}
+.sigin{
+	width:90%;
+	margin:auto;
+	padding:10px 0;
+	background-color:#0a66c2;
+	border-radius:20px;
+	text-align:center;
+	font-weight:600;
+	margin-top: 15px;
+}
+.sigin a{
+	color:#ffffff;
+}
+.log-or{
+	text-align:center;
+	position:relative;
+	padding:15px 0;
+}
+.log-or p::after{
+	content:"";
+	display:block;
+	width:45%;
+	height:2px;
+	color:#dfdfe1;
+	background-color:#dfdfe1;
+	position:absolute;
+	top:47%;
+	left:0;
+}
+.log-or p::before{
+	content:"";
+	display:block;
+	width:45%;
+	height:2px;
+	color:#dfdfe1;
+	background-color:#dfdfe1;
+	position:absolute;
+	top:47%;
+	left:54%;
+}
+.google{
+	display:flex;
+	justify-content:center;
+	width:90%;
+	margin:auto;
+	padding:10px;
+	background-color:#ffffff;
+	border-radius:20px;
+	text-align:center;
+	font-weight:400;
+	border:1px solid #010f11;
+}
+.google-sigin a{
+	color:#000000bf;
+	padding-left:10px;
+}
+.sigin-new{
+	display:flex;
+	justify-content:center;
+	width:90%;
+	margin:auto;
+	margin-top:10px;
+	padding:10px;
+	background-color:#ffffff;
+	border-radius:20px;
+	text-align:center;
+	font-weight:400;
+	border:1px solid #010f11;
+}
+.sigin-new a{
+	color:#000000bf;
+}
+
+.login{
+	color:red;
+	display: none;
+}
+.view{
+	display: block;
+}
+
+.next{
+	display: none;
+}
+.comf{
+	display: none;
+}
+#mass{
+	color: red;
+}
